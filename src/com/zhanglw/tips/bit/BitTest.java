@@ -37,6 +37,9 @@ public class BitTest implements TestTips{
 		//>>> 无符号移位运算   移动指定的位数  并在最高位补0
 		//-1的补码为: 1111 1111  >>> 0111 1111
 		System.out.println(-1>>>1);
+		
+		//31*num = (32-1)*num = 32*num-num = (num<<5)-num  这样可以使用移位运算代替乘法运算
+		System.out.println((2<<5)-2);
 	}
 
 	@Override

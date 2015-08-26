@@ -1,14 +1,19 @@
 package com.zhanglw.tips.main;
 
-import com.zhanglw.tips.base.TestTips;
-import com.zhanglw.tips.bit.BitTest;
+import com.zhanglw.tips.string.StringTest;
 
 public class App {
 	
 	// 位运算测试类
-	public static TestTips bitTest = new BitTest();
+	//public static TestTips test = new BitTest();
+	
+	// 参数传递都是值传递
+	//public static RefTest test = new RefTest();
+
+	public static StringTest test = new StringTest();
+
 	public static void main(String[] args) {
 		
-		bitTest.test();
+		test.test();
 	}
 }
