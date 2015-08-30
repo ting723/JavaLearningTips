@@ -1,6 +1,7 @@
 package com.zhanglw.tips.main;
 
-import com.zhanglw.tips.string.StringTest;
+import com.zhanglw.tips.classLoader.ClassLoaderTest;
+import com.zhanglw.tips.clone.CloneTest;
 
 public class App {
 	
@@ -10,10 +11,14 @@ public class App {
 	// 参数传递都是值传递
 	//public static RefTest test = new RefTest();
 
-	public static StringTest test = new StringTest();
+//	public static StringTest test = new StringTest();
+	
+//	public static CloneTest test = new CloneTest();
 
+	public static ClassLoaderTest test= new ClassLoaderTest();
 	public static void main(String[] args) {
-		
+		System.out.println("执行开始");
 		test.test();
+		System.out.println("执行结束");
 	}
 }
