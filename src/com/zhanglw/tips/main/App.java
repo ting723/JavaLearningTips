@@ -1,7 +1,9 @@
 package com.zhanglw.tips.main;
 
-import com.zhanglw.tips.classLoader.ClassLoaderTest;
-import com.zhanglw.tips.clone.CloneTest;
+import java.util.Date;
+
+import com.zhanglw.tips.datetime.DateTimeTest;
+import com.zhanglw.tips.string.StringTest;
 
 public class App {
 	
@@ -15,7 +17,10 @@ public class App {
 	
 //	public static CloneTest test = new CloneTest();
 
-	public static ClassLoaderTest test= new ClassLoaderTest();
+//	public static ClassLoaderTest test= new ClassLoaderTest();
+
+	public static DateTimeTest test = new DateTimeTest();
+
 	public static void main(String[] args) {
 		System.out.println("Ö´ÐÐ¿ªÊ¼");
 		test.test();
