@@ -3,7 +3,9 @@ package com.zhanglw.tips.main;
 import java.util.Date;
 
 import com.zhanglw.tips.datetime.DateTimeTest;
+import com.zhanglw.tips.exception.ExceptionTest;
 import com.zhanglw.tips.string.StringTest;
+import com.zhanglw.tips.threefinal.FinalThreeTest;
 
 public class App {
 	
@@ -19,7 +21,9 @@ public class App {
 
 //	public static ClassLoaderTest test= new ClassLoaderTest();
 
-	public static DateTimeTest test = new DateTimeTest();
+//	public static DateTimeTest test = new DateTimeTest();
+//	public static FinalThreeTest test = new FinalThreeTest();
+	public static ExceptionTest test = new ExceptionTest ();
 
 	public static void main(String[] args) {
 		System.out.println("Ö´ÐÐ¿ªÊ¼");
