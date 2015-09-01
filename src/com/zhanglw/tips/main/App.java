@@ -1,5 +1,6 @@
 package com.zhanglw.tips.main;
 
+import com.zhanglw.tips.thread.MulitiThreadTest;
 import com.zhanglw.tips.thread.ThreadTest;
 
 public class App {
@@ -22,7 +23,8 @@ public class App {
 
 	// public static ExceptionTest test = new ExceptionTest ();
 
-	public static ThreadTest test = new ThreadTest();
+//	public static ThreadTest test = new ThreadTest();
+	public static MulitiThreadTest test = new MulitiThreadTest ();
 
 	public static void main(String[] args) {
 		System.out.println("Ö´ÐÐ¿ªÊ¼");
