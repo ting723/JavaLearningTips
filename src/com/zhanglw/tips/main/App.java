@@ -1,5 +1,6 @@
 package com.zhanglw.tips.main;
 
+import com.zhanglw.tips.stream.StreamTest;
 import com.zhanglw.tips.thread.CallableTest;
 import com.zhanglw.tips.thread.MulitiThreadTest;
 import com.zhanglw.tips.thread.ThreadTest;
@@ -27,7 +28,11 @@ public class App {
 //	public static ThreadTest test = new ThreadTest();
 
 //	public static MulitiThreadTest test = new MulitiThreadTest ();
-	public static CallableTest test = new CallableTest();
+
+//	public static CallableTest test = new CallableTest();
+
+	public static StreamTest test = new StreamTest();
+
 	public static void main(String[] args) {
 		System.out.println("Ö´ÐÐ¿ªÊ¼");
 		test.test();
