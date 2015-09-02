@@ -1,7 +1,5 @@
 package com.zhanglw.tips.thread;
 
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;
@@ -32,9 +30,9 @@ public class MulitiThreadTest implements TestTips{
 class Account{
 	
 	private double balance;//’À∫≈”‡∂Ó
+	Lock lock = new ReentrantLock();
 
 	public void deposit(double money){
-		Lock lock = new ReentrantLock();
 		lock.lock();
 		try {
 			double newBalance = this.balance+money;
@@ -68,9 +66,10 @@ class AddMoneyThread implements Runnable{
 
 	@Override
 	public void run() {
-		synchronized(account){
 			this.account.deposit(this.money);
-		}
+//			synchronized (this.account) {
+//				this.account.deposit(this.money);
+//			}
 	}
 	
 }
