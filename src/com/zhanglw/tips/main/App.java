@@ -1,11 +1,7 @@
 package com.zhanglw.tips.main;
 
-import java.nio.channels.ServerSocketChannel;
-
+import com.zhanglw.tips.regex.RegexTest;
 import com.zhanglw.tips.stream.EchoClientNIO;
-import com.zhanglw.tips.stream.EchoClientTest;
-import com.zhanglw.tips.stream.EchoServerTest;
-import com.zhanglw.tips.stream.ListFileTest;
 
 public class App {
 
@@ -39,7 +35,8 @@ public class App {
 
 	// public static EchoClientTest test = new EchoClientTest();
 
-	 public static EchoClientNIO test = new EchoClientNIO ();
+//	 public static EchoClientNIO test = new EchoClientNIO ();
+	 public static RegexTest test = new RegexTest ();
 	public static void main(String[] args) {
 		System.out.println("---------Ö´ÐÐ¿ªÊ¼---------");
 		test.test();
