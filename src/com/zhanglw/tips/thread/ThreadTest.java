@@ -10,6 +10,7 @@ import com.zhanglw.tips.base.TestTips;
 
 public class ThreadTest implements TestTips{
 	
+	@SuppressWarnings("static-access")
 	@Override
 	public synchronized void test() {
 
@@ -42,6 +43,7 @@ public class ThreadTest implements TestTips{
 				//解锁
 				lock.unlock();
 				//用于线程之间通信的Condition对象
+				@SuppressWarnings("unused")
 				Condition con= lock.newCondition();
 				
 				//信号量机制,信号量可以用来限制对共享资源进行访问的线程的数量

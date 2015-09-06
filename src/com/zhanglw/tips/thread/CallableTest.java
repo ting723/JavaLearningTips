@@ -4,12 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
 import com.zhanglw.tips.base.TestTips;
 /**
  * 

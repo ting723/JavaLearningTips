@@ -60,6 +60,7 @@ public class EchoServerNIO {
 		}
 	}
 
+	@SuppressWarnings("static-access")
 	private static void handleKey(SelectionKey key) {
 
 		SocketChannel chanel = null;

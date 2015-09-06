@@ -41,6 +41,7 @@ public class StreamTest implements TestTips{
 		}
 	}
 	
+	@SuppressWarnings("unused")
 	private void fileCopy(String source,String target) throws IOException {
 		//Java 7的TWR 	写法 可以不使用finally
 		System.out.println(System.currentTimeMillis());
@@ -56,6 +57,7 @@ public class StreamTest implements TestTips{
 		System.out.println(System.currentTimeMillis());
 	}
 
+	@SuppressWarnings("unused")
 	private void fileNIOCopy(String source,String targe) throws IOException, Exception{
 		System.out.println(System.currentTimeMillis());
 		try(FileInputStream in = new FileInputStream(source)){

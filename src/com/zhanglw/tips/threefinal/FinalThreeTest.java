@@ -4,6 +4,7 @@ import com.zhanglw.tips.base.TestTips;
 
 public class FinalThreeTest implements TestTips{
 
+	@SuppressWarnings("unused")
 	private final String text;
 
 	private String xx = null;

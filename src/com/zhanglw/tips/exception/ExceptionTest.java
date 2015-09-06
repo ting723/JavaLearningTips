@@ -2,7 +2,9 @@ package com.zhanglw.tips.exception;
 
 import com.zhanglw.tips.base.TestTips;
 
+@SuppressWarnings("serial")
 class Annoyance extends Exception {}
+@SuppressWarnings("serial")
 class Sneeze extends Annoyance {}
 
 // 异常: 先从子类后到父类

@@ -3,7 +3,6 @@ package com.zhanglw.tips.clone;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
-import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 
 public class MyUtil {
