@@ -1,6 +1,6 @@
 package com.zhanglw.tips.main;
 
-import com.zhanglw.tips.regex.RegexTest;
+import com.zhanglw.tips.reflect.ReflectTest;
 
 public class App {
 
@@ -34,8 +34,12 @@ public class App {
 
 	// public static EchoClientTest test = new EchoClientTest();
 
-//	 public static EchoClientNIO test = new EchoClientNIO ();
-	 public static RegexTest test = new RegexTest ();
+	// public static EchoClientNIO test = new EchoClientNIO ();
+
+	// public static RegexTest test = new RegexTest();
+
+	 public static ReflectTest test = new ReflectTest();
+
 	public static void main(String[] args) {
 		System.out.println("---------Ö´ÐÐ¿ªÊ¼---------");
 		test.test();
