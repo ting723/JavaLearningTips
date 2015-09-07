@@ -1,6 +1,6 @@
 package com.zhanglw.tips.main;
 
-import com.zhanglw.tips.reflect.ReflectTest;
+import com.zhanglw.tips.algorithmic.AlgorithmicTest;
 
 public class App {
 
@@ -38,7 +38,9 @@ public class App {
 
 	// public static RegexTest test = new RegexTest();
 
-	 public static ReflectTest test = new ReflectTest();
+	// public static ReflectTest test = new ReflectTest();
+
+	public static AlgorithmicTest test = new AlgorithmicTest();
 
 	public static void main(String[] args) {
 		System.out.println("---------Ö´ÐÐ¿ªÊ¼---------");
