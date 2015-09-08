@@ -40,7 +40,7 @@ public class App {
 
 	// public static ReflectTest test = new ReflectTest();
 
-	public static AlgorithmicTest test = new AlgorithmicTest();
+	 public static AlgorithmicTest test = new AlgorithmicTest();
 
 	public static void main(String[] args) {
 		System.out.println("---------Ö´ÐÐ¿ªÊ¼---------");
